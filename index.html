@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketuago Coffee</title>
+    <meta name="desccription" content="sample text sample text sample text sample text sample text">
+    <link rel="stylesheet" href="./cmn/css/sanitize.css">
+    <link rel="stylesheet" href="./cmn/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./cmn/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./cmn/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./cmn/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./cmn/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./cmn/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="header-navlist">
+                <li class="header-navitem">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="header-navitem">
+                    <a href="#">MORNING</a>
+                </li>
+                <li class="header-navitem">
+                    <a href="#">LUNCH</a>
+                </li>
+                <li class="header-navitem">
+                    <a href="#">CAFE</a>
+                </li>
+                <li class="header-navitem">
+                    <a href="#">DINNER</a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <div class="hero">
+        <strong>Ketuago Coffee</strong>
+        <img src="./cmn/img/pexels-afta-putta-gunawan-683039.jpeg" alt="Hero-imeag" class="hero-imeag">
+        <ul class="hero-info">
+            <li class="jamp"> <!-- spanで強引に列揃え 　選択後、idを使いで同一ページ内で移動 -->
+                <a href="#menu" class="hero-jamp">Morning ー 9:00</a>
+            </li>
+            <li>
+                <a href="#menu" class="hero-jamp">Lunch <span class="lunch-span">ー</span> 11:00</a>
+            </li>
+            <li>
+                <a href="#menu" class="hero-jamp">Cafe <span class="cafe-span">ー</span> 15:00</a>
+            </li>
+            <li>
+                <a href="#menu" class="hero-jamp">Dinner <span class="dinner-span">ー</span> 17:00</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="base">
+        <img src="./cmn/img/pexels-julie-aagaard-2351275.jpeg" alt="base" class="base-image">
+        <figure class="shop">
+            <img src="https://dummyimage.com/600x400/000/fff" alt="shop-image" class="shop-image">
+            <figcaption class="shop-caption">
+                <h2 class="shop-headline">shop introduction</h2>
+                <p class="shop-description">
+                    Text text text text text text text text text text<br/>
+                    text text text text text text text text text text<br/>
+                    text text text text text text text
+                </p>
+            </figcaption>
+        </figure>
+
+        <section class="news">
+            <h1 class="news-headline">NEWS</h1>
+            <ul class="grid grid-col-3">
+                
+                <li class="grid-item">
+                    <article class="card">
+                        <a href="#" class="card-link">
+                            <span class="card-label">New</span>
+                            <img class="card-image" src="https://dummyimage.com/300x250/000/fff" alt="thumbnail">
+                            <div class="card-info">
+                                <time class="card-time" datetime="2022-08-01">2022.08.01</time>
+                                <h1 class="card-headline">Title info</h1>
+                                <p class="card-description">Text text text text text text text</p>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+                <li class="grid-item">
+                    <article class="card">
+                        <a href="#" class="card-link">
+                            <span class="card-label">New</span>
+                            <img class="card-image" src="https://dummyimage.com/300x250/000/fff" alt="thumbnail">
+                            <div class="card-info">
+                                <time class="card-time" datetime="2022-08-01">2022.08.01</time>
+                                <h1 class="card-headline">冷やし中華始めました</h1>
+                                <p class="card-description">Text text text text text text text</p>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+                <li class="grid-item">
+                    <article class="card">
+                        <a href="#" class="card-link">
+                            <span class="card-label">New</span>
+                            <img class="card-image" src="https://dummyimage.com/300x250/000/fff" alt="thumbnail">
+                            <div class="card-info">
+                                <time class="card-time" datetime="2022-08-01">2022.08.01</time>
+                                <h1 class="card-headline">Title info</h1>
+                                <p class="card-description">Text text text text text text text</p>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu">
+            <h1 class="menu-headline">MENU</h1>
+            <ul class="grid grid-col-3"> 
+
+                <li class="grid-item">
+                    <article class="menucard">
+                        <a href="#" class="menucard-link" id="menu">
+                            <img class="menucard-image" src="https://dummyimage.com/350x450/000/fff" alt="morning" >
+                            <div class="menucard-info">
+                                <h1 class="menucard-headline">MORNING</h1>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+                <li class="grid-item">
+                    <article class="menucard">
+                        <a href="#" class="menucard-link" id="menu">
+                            <img class="menucard-image" src="https://dummyimage.com/350x450/000/fff" alt="lunch/cafe" >
+                            <div class="menucard-info">
+                                <h1 class="menucard-headline">LUNCH/CAFE</h1>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+                <li class="grid-item">
+                    <article class="menucard">
+                        <a href="#" class="menucard-link" id="menu">
+                            <img class="menucard-image" src="https://dummyimage.com/350x450/000/fff" alt="dinner" >
+                            <div class="menucard-info">
+                                <h1 class="menucard-headline">DINNER</h1>
+                            </div>
+                        </a>
+                    </article>
+                </li>
+
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <div class="smoke">
+                <figure class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.705524614646!2d141.34856661533394!3d43.06866057914571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2974d2c3f903%3A0xa5e2b18cdd4a47a5!2z5pyt5bmM6aeF!5e0!3m2!1sja!2sjp!4v1661426664104!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <figcaption class="footer-mapinfo">
+                        <address class="footer-address">
+                            <dl class="footer-address-dl">
+                                <dt class="footer-address-dt">店名</dt>
+                                <dd class="footer-address-dd">
+                                    Ketuago Coffee(ケツアゴ コーヒ)
+                                </dd>
+                            </dl>
+                            <dl class="footer-address-dl">
+                                <dt class="footer-address-dt">電話番号</dt>
+                                <dd class="footer-address-dd">
+                                    000-000-000
+                                </dd>
+                            </dl>
+                            <dl class="footer-address-dl">
+                                <dt class="footer-address-dt">住所</dt>
+                                <dd class="footer-address-dd">
+                                    〒060-0806 北海道札幌市北区北６条西４丁目
+                                </dd>
+                            </dl>
+                            <dl class="footer-address-dl">
+                                <dt class="footer-address-dt">アクセス</dt>
+                                <dd class="footer-address-dd">
+                                    札幌駅より徒歩５分
+                                </dd>
+                            </dl>
+                            <dl class="footer-address-dl">
+                                <dt class="footer-address-dt">営業時間</dt>
+                                <dd class="footer-address-dd">
+                                    平日<br/>
+                                    9:00〜22:00<br/>
+                                    土曜日・日曜日・祝日<br/>
+                                    9:00〜20:00<br/>
+                                </dd>
+                            </dl>
+                            <dl class="footer-address-dl">
+                                <dt class="footer-address-dt">定休日</dt>
+                                <dd class="footer-address-dd">
+                                    木曜日
+                                </dd>
+                            </dl>
+                            
+
+                            <a class="footer-mapgoogle" href="https://goo.gl/maps/psfhSDdrgTMXMMZd7" >Google Map</a>
+                        </address>
+                    </figcaption>
+                </figure>
+            </div>
+        </footer>
+    
+    </div>    
+
+    <!-- Google以外だとレイアウトが崩れる -->
+    <!-- モバイル対応断念 -->
+    <!-- レイアウトを強引に調整した為、不備が多い　特にbackground-imgの調整、display、positionがうまくいかなかった -->
+    <!-- 次は、背景色のみにして強引に調整しないようにする、display、positionを使いこなせるようにする -->
+
+
+    <script src="./cmn/js/app.js"></script>
+</body>
+</html>
